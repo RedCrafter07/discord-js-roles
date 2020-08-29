@@ -16,7 +16,9 @@ Dies ist ein kleiner Walkthrough durch alle Rollen.
 > ```
 
 > ## Rolle nach Name suchen
-> Das nächste wäre, die Rolle nach der ID zu suchen. Dies tut man so:
+> Das nächste wäre, die Rolle nach dem Namen zu suchen. Das tut man so:
 > ```javascript
 > const role = message.guild.roles.cache.find((role) => role.name === 'ROLLEN NAME');
 > ```
+> ## Was passiert bei diesem Code?
+> Es wird die variable "role" definiert. Diese sucht aus dem Catch des Guilds in dem die Nachricht gesendet wurde. Dies wird in einer Funktion unter "role" gespeichert. Dann wird der Rollenname mit role.name gesucht.
