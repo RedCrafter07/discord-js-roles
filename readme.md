@@ -20,5 +20,6 @@ Dies ist ein kleiner Walkthrough durch alle Rollen.
 > ```javascript
 > const role = message.guild.roles.cache.find((role) => role.name === 'ROLLEN NAME');
 > ```
-> ## Was passiert bei diesem Code?
-> Es wird die variable "role" definiert. Diese sucht aus dem Catch des Guilds in dem die Nachricht gesendet wurde. Dies wird in einer Funktion unter "role" gespeichert. Dann wird der Rollenname mit role.name gesucht.
+
+> ## Rolle in Permissions (für Kanäle etc.) anwenden
+> Man benutzt den Code von oben und überschreibt die Permissions mit einer ID
