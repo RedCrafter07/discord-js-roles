@@ -8,9 +8,9 @@ Dies ist ein kleiner Walkthrough durch alle Rollen.
 > ## Wie erstelle ich eine Rolle in Discord.js?
 > ```javascript
 > message.guild.roles.create({
-    data:   {
-        name: 'NAME DER ROLLE',
-        color: 'FARBE'
-    }
-})
+>    data:   {
+>        name: 'NAME DER ROLLE',
+>        color: 'FARBE'
+>   }
+> })
 > ```
