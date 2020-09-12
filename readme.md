@@ -1,6 +1,5 @@
 # discord-js-roles
 Rollen-Verwaltung in discord.js
-Dies ist ein kleiner Walkthrough durch alle Rollen.
 
 > ## Rolle erstellen
 > Rollen werden grundsätzlich mit dem Guild verknüpft. Dies tut man mit message.guild.
