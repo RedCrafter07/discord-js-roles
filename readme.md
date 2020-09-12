@@ -45,6 +45,6 @@ Dies ist ein kleiner Walkthrough durch alle Rollen.
 
 
 
-> Ich weiß nicht, ob das alles richtig ist, aber dies wäre ein Rollen-Verwaltungs-Code sein.
+> Ich weiß nicht, ob das alles richtig ist, aber dies sollte ein Rollen-Verwaltungs-Code sein.
 > 
 > Falls du mehr erfahren möchtest, schaue [hier](https://discordjs.guide/popular-topics/permissions.html#roles-as-bot-permissions) vorbei.
