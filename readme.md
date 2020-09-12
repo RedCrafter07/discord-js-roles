@@ -24,20 +24,20 @@ Dies ist ein kleiner Walkthrough durch alle Rollen.
 > ## Rolle nach ID suchen
 > Eine Rolle per ID zu suchen ist viel genauer, als es durch den Namen zu machen.
 > ```javascript
->   const role = message.guild.roles.cache.get("role-id");
+> const role = message.guild.roles.cache.get("role-id");
 > ```
 >
 
 > ## Rolle in Permissions (für Kanäle etc.) anwenden
 > Man benutzt den Code von oben und überschreibt die Permissions mit einer ID.
 > ```javascript
->   const role = message.guild.roles.cache.get("role-id");
->   channelSelector.overwritePermissions({
->       role.id:    {
->           allow:  ["PERMISSIONS HIER"], //Die Permissions, die er für die Rolle im Kanal erlauben soll. 
->           deny:  ["PERMISSIONS HIER"], //Die Permissions, die er für die Rolle im Kanal verbieten soll. 
->       }
->   })
+> const role = message.guild.roles.cache.get("role-id");
+> channelSelector.overwritePermissions({
+>     role.id:    {
+>         allow:  ["PERMISSIONS HIER"], //Die Permissions, die er für die Rolle im Kanal erlauben soll. 
+>         deny:  ["PERMISSIONS HIER"], //Die Permissions, die er für die Rolle im Kanal verbieten soll. 
+>     }
+> })
 > ```
 > An die, die nicht so gut in JS sind: Jede Permission hat einen String. Mehrere werden mit einem Komma getrennt.
 >
