@@ -42,7 +42,9 @@ Dies ist ein kleiner Walkthrough durch alle Rollen.
 > An die, die nicht so gut in JS sind: Jede Permission hat einen String. Mehrere werden mit einem Komma getrennt.
 >
 > Die Permissions findest du [hier](https://discord.com/developers/docs/topics/permissions)
->
+
+
+
 > Ich weiß nicht, ob das alles richtig ist, aber dies wäre ein Rollen-Verwaltungs-Code sein.
 > 
 > Falls du mehr erfahren möchtest, schaue [hier](https://discordjs.guide/popular-topics/permissions.html#roles-as-bot-permissions) vorbei.
