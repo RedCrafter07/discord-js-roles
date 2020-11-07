@@ -49,3 +49,5 @@ Rollen-Verwaltung in discord.js
 > Ich hoffe, du konntest was lernen. Viel Spaß noch mit Discord.js!
 > 
 > Falls du mehr erfahren möchtest, schaue [hier](https://discordjs.guide/popular-topics/permissions.html#roles-as-bot-permissions) vorbei.
+>
+> Bei Fragen: -> Issues
