@@ -1,3 +1,6 @@
+## Archiviert!
+Dieser Code wurde archiviert, da er nun durch neuere Discord.js-Versionen nicht mehr aktuell ist.
+
 # discord-js-roles
 Rollen-Verwaltung in discord.js
 
